@@ -1,0 +1,356 @@
+h1{
+    background: lightcoral;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#title{
+    text-transform: unset;
+    font-family: sans-serif;
+}
+
+#heading{
+
+    background: transparent;
+    text-transform: unset;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 0.125em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: inherit;
+}
+
+footer{
+    font-size: 80%;
+    font-weight: 400;
+    padding: 5rem 0;
+    display: block;
+
+}
+
+#space{
+
+    display: inline-block;
+    width: 40%;
+}
+
+ /* .bg{
+    background-image: url("running-quotes-e1536794439386.jpg");
+    background-size: cover;
+}  */
+
+#para_1{
+        position: absolute;
+        top: 200px;
+        right: 50px;
+        width: 350px;
+        height: 350px;
+        border: 3px lavender;
+        background-color: lightcoral;
+      
+}
+
+#para_2{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 350px;
+    height: 250px;
+    border: 3px lavender;
+    background-color: lightcoral;
+  
+}
+
+form{
+    margin-top: 1em;
+    border: lavender;
+    width: 50 px;
+
+}
+
+.fa-plus{
+    float: right;
+}
+span{
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+
+}
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+input:focus{
+    background: #fff;
+    border: 3px solid lightcoral;
+    outline: none;
+}
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+ body{
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    font-family: Roboto;
+} 
+ #container{
+    width: auto;
+    margin-left: 25%;
+    /* margin-bottom: 20%; */
+    /* margin: 10px 10px auto; */
+    /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); */
+    float: center;
+}
+
+/* #blog{
+    width: 100%;
+    padding: 50px 0 0 100px;
+} */
+
+#container2{
+    visibility: hidden;
+    width: 360px;
+    margin: 100px 10px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+#container3{
+    /* visibility: hidden; */
+    width: 400px;
+    margin: 100px 10px auto; 
+    /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); */
+    float: left;
+    padding: 75px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /* width: 100%; */
+    border: 2px solid black;
+    width:100px;
+    margin:auto;
+    font-size:14px;
+    /* border:1px solid #000; */
+    /* border-collapse:collapse; */
+
+}
+  
+  td, th {
+    width: 100px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    height: auto;
+ }
+
+  thead{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 100px;
+  }
+ 
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+
+}
+
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+input:focus{
+    background: #fff;
+    border: 3px solid lightcoral;
+    outline: none;
+}
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    /* height: 100; */
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+    float: right;
+}
+
+button:hover{
+    color: black;
+    background-color: #f8e222;
+}
+
+#button{
+    display: inline-block;
+    width: 10%;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Lacquer', sans-serif;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
